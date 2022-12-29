@@ -1,0 +1,10 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "sam-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-fn3q0176cuyt"
+s3_prefix = "sam-app"
+region = "ap-southeast-1"
+profile = "me"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["MLInferencer=428846808097.dkr.ecr.ap-southeast-1.amazonaws.com/samapp7427b055/mlinferencerd70cf60frepo"]
